@@ -3,11 +3,14 @@ p {
     font-family: "Montserrat", sans-serif;
 }
 
+h1, h2{
+    font-family: "Rye", serif;
+}
 
 /*Interacción en links del nav*/
-a:link {color: white;}
-a:hover {background-color: blue;}
-a:visited {color: grey;}
+nav a:link {color: white;}
+nav a:hover {background-color: blue;}
+nav a:visited {color: grey;}
 
 footer{
     font-family: "Montserrat", sans-serif;
@@ -21,3 +24,5 @@ footer{
     display: none;
 }
 }
+
+
