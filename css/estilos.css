@@ -1,10 +1,11 @@
 
-p {
+p{
     font-family: "Montserrat", sans-serif;
 }
 
 h1, h2{
     font-family: "Rye", serif;
+    margin-top: 0.5em;
 }
 
 /*Interacción en links del nav*/
