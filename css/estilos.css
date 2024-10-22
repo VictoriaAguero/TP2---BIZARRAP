@@ -1,3 +1,23 @@
+
 p {
     font-family: "Montserrat", sans-serif;
+}
+
+
+/*Interacción en links del nav*/
+a:link {color: white;}
+a:hover {background-color: blue;}
+a:visited {color: grey;}
+
+footer{
+    font-family: "Montserrat", sans-serif;
+   text-align: center;
+   margin-top: 2em;
+}
+
+/*Ocultar el menu de la compu en el celu*/
+@media (max-width:480px){
+#menucompu{
+    display: none;
+}
 }

@@ -8,7 +8,7 @@
     <title>Bizarrap</title>
 
  
-    <link href="css/estilos.css" rel="stylesheet">
+    <link href="../css/estilos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,45 +17,56 @@
 
  </head>
 
-  <body>
-    <div class="container">
+  <body class="text-bg-dark p-3">
+    <div class="container" id="contenedor">
 
-     <header>
-      
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-      <div class="container">
-          <a href="index.html">
-              <img src="../img/logo.jpeg" alt="Logo" class="logo me-2" style="height: 50px;">
-          </a>
+  <header>
+
+   <!-- MENÚ PARA CELULAR -->
+<div id="menucelu" class="dropdown d-md-none">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+  <ul class="dropdown-menu">
+      <li class="dropdown-item"><a href="index.html">Mundo Bizarrap</a></li>
+      <li class="dropdown-item"><a href="../historia/index.html">¿Quién es Bizarrap?</a></li>
+      <li class="dropdown-item"><a href="../index.html">Colaboraciones</a></li>
+      <li class="dropdown-item"><a href="../juegostematicos/index.html">¡Juguemos!</a></li>
+      <li class="dropdown-item"><a href="../concursoartistas/index.html">Concurso de artistas</a></li>
+  </ul>
+</div>
+
+<!-- MENÚ PARA COMPUTADORA -->
+<nav id="menucompu" class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container">
+      <a href="index.html">
+          <img src="../img/logo.jpeg" alt="Logo" class="logo me-2" style="height: 50px;">
+      </a>
+      <ul class="nav justify-content-center flex-grow-1">
+          <li class="nav-item mx-2"><a class="nav-link active text-white" aria-current="page" href="../index.html">Mundo Bizarrap</a></li>
+          <li class="nav-item mx-2"><a class="nav-link active text-white" href="../historia/index.html">¿Quién es Bizarrap?</a></li>
+          <li class="nav-item mx-2"><a class="nav-link active text-white" href="index.html">Colaboraciones</a></li>
+          <li class="nav-item mx-2"><a class="nav-link active text-white" href="../juegostematicos/index.html">¡Juguemos!</a></li>
+          <li class="nav-item mx-2"><a class="nav-link active text-white" href="../concursoartistas/index.html">Concurso de artistas</a></li>
+      </ul>
+  </div>
+</nav>
+
+</header>
 
 
-          <ul class="nav justify-content-center flex-grow-1">
-              <li class="nav-item mx-2"><a class="nav-link active text-white" aria-current="page" href="index.html">Mundo Bizarrap</a></li>
-              <li class="nav-item mx-2"><a class="nav-link active text-white" aria-current="page" href="../historia/index.html">¿Quién es Bizarrap?</a></li>
-              <li class="nav-item mx-2"><a class="nav-link active text-white" aria-current="page" href="../index.html">Colaboraciones</a></li>
-              <li class="nav-item mx-2"><a class="nav-link active text-white" aria-current="page" href="../juegostematicos/index.html">¡Juguemos!</a></li>
-              <li class="nav-item mx-2"><a class="nav-link active text-white" aria-current="page" href="../concursoartistas/index.html">Concurso de artistas</a></li>
-          </ul>
-      
-        
-
-      </div>
-  </nav>
-  
-      
-      </header>
 
       <main>
-        <article>
-            <h1> Historia de amor Nicki y Trueno</h1>
+        <article class="row">
+            <h1 style="margin-top: 0.5em;" class="col-12">Historia de amor Nicki y Trueno</h1>
 
-            <p>
+            <p class="col-12">
                 Trueno y Nicki Nicole son dos artistas argentinos con gran proyección internacional que iniciaron su historia de amor gracias a la música. Trueno, a sus 19 años, ya tenía una sólida 
                 trayectoria en batallas de rap y había lanzado su primer álbum, Atrevido. Por su parte, Nicki, de 21 años, comenzó su carrera cuando un productor musical la descubrió en una fiesta de trap, 
                 y luego lanzó su primer disco, Recuerdos, con éxitos como "Colocao" y "Ella No Es Tuya" junto a Myke Towers y Rochy RD.
-            </p>
+            </p class="col-12">
 
-            <p>
+            <p  class="col-12">
                 La conexión entre ellos se consolidó con el lanzamiento del tema "Mamichula", producido por Bizarrap. La canción, lanzada el 24 de julio de 2020, no solo rompió las listas de éxitos,
                 sino que también confirmó su relación. Durante la grabación, la complicidad entre Trueno y Nicki era evidente, y ambos comenzaron a enamorarse.
             <br>
@@ -63,23 +74,25 @@
                 porque la consideraba una representante femenina increíble en el rap.
             </p>
 
-            <p>
+            <p class="col-12 col-md-7">
                 Bizarrap jugó un papel crucial al proponer la colaboración. Tras trabajar con Nicki en su sesión (#13), se animó a preguntar si le gustaría unirse a Trueno para crear una canción. 
                 Ella aceptó, y así nació no solo un gran tema, sino también una hermosa historia de amor.
             </p>
 
-            <p>
+            <p class="col-12 col-md-7">
                 En el año 2021 Nicki Nicole fue invitada por Ibai Llanos a su mansión de Barcelona para entrevistarla en su programa de Twich, 'Charlando tranquilamente'. En la entrevista, 
                 la cantante confesó que estaba comprometida con su pareja, a los tres meses de empezar juntos Trueno quiso sellar su amor.
             </p>
 
-            <p>
+            <p class="col-12 col-md-7">
                 Su relación acabó sorprendentemente a fines del 2022, aunque Nicki lo confirmó recién a mediados del 2023. Su ruptura llamó la atención de todos los seguidores, debido a que solían 
                 publicar fotos y videos juntos. De todas formas, siempre dejaron muy en claro que se guardan mucho cariño y no existieron terceras personas.
             </p>
 
         
-          <div id="carouselExampleControlsNoTouching" class="carousel slide w-25" data-bs-touch="false">
+  
+        <div class="col-12 col-md-4" style="margin-top: -14em;">
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./img/nickiytrueno1.jpeg" class="d-block w-100" alt="Nicki y Trueno estilo urbano">
@@ -87,21 +100,7 @@
               <div class="carousel-item">
                 <img src="./img/nickiytrueno2.jpeg" class="d-block w-100" alt="Nicki y Trueno año 2022">
               </div>
-              <div class="carousel-item">
-                <img src="./img/nickiytrueno3.jpeg" class="d-block w-100" alt="Nicki y Trueno primeras fotos juntos">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/nickiytrueno4.jpeg" class="d-block w-100" alt="Nicki y Trueno alfombra roja">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/nickiytrueno5.jpeg" class="d-block w-100" alt="Nicki y Trueno alfombra roja">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/nickiytrueno6.jpeg" class="d-block w-100" alt="Nicki y Trueno alfombra roja">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/nickiytrueno7.jpeg" class="d-block w-100" alt="Nicki y Trueno alfombra roja">
-              </div>
+              <!-- Resto de las imágenes -->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -112,7 +111,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          
+        </div>
 
 
 
@@ -125,7 +124,7 @@
       </footer>
 
    </div>
-  <script src="js/index.js"></script>
+  <script src="../js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
