@@ -19,11 +19,36 @@ footer{
    margin-top: 2em;
 }
 
+
+ /*Diseño página index de historia bzrp*/
+    /*Video de youtube*/
+    #videoyoutube{
+        margin-top: -8em;
+    }
+
+
+/*RESPONSIVE PARA EL CELULAR*/
+
 /*Ocultar el menu de la compu en el celu*/
 @media (max-width:480px){
-#menucompu{
-    display: none;
-}
-}
+    #menucompu{
+    display: none;    
+    }
 
+    /*Diseño página index de historia bzrp*/
+    /*Video de youtube*/
+    #videoyoutube{
+        width: 100%;
+        margin-top: 1em;
+
+    }
+
+
+    /*El apartado de combos locos no aparece en la versión del celu*/
+    #comboslocos{
+        display: none;
+
+    }
+
+}
 

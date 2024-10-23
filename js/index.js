@@ -20,3 +20,13 @@ new VenoBox({
     spinner: 'rotating-plane'
 });
 
+
+//Interacción sección juegos
+
+function empezarjuego() {
+    document.querySelector('#botonempezar').style.display = 'none';
+    document.querySelector('#juego').style.display = 'block';
+}
+
+
+document.querySelector('#botonempezar').addEventListener('click', empezarjuego);
