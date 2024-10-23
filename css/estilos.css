@@ -3,7 +3,7 @@ p{
     font-family: "Montserrat", sans-serif;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: "Rye", serif;
     margin-top: 0.5em;
 }
@@ -26,6 +26,12 @@ footer{
         margin-top: -8em;
     }
 
+
+/*Ajustar estilo a fotos colaboraciones*/
+#fotoscolaboraciones{
+    display: inline-block;
+    padding: 1em;
+}
 
 /*RESPONSIVE PARA EL CELULAR*/
 
