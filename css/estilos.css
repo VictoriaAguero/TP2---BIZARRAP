@@ -33,6 +33,12 @@ footer{
     padding: 1em;
 }
 
+/*Diseño de botones del form*/
+#preguntasform button {
+    margin: 0.5em;
+}
+
+
 /*RESPONSIVE PARA EL CELULAR*/
 
 /*Ocultar el menu de la compu en el celu*/

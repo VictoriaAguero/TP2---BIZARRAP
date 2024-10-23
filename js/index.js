@@ -21,8 +21,10 @@ new VenoBox({
 });
 
 
-//Interacción sección juegos
+//PÁGINA JUEGOS
 
+
+//Una vez que toca el boton de iniciar juego se muestra la primera pregunta
 function empezarjuego() {
     document.querySelector('#botonempezar').style.display = 'none';
     document.querySelector('#juego').style.display = 'block';
@@ -30,3 +32,4 @@ function empezarjuego() {
 
 
 document.querySelector('#botonempezar').addEventListener('click', empezarjuego);
+

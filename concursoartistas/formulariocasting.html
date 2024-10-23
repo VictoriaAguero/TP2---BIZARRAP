@@ -54,27 +54,59 @@
         </header>
 
       <main>
-        <h1>Formulario de Casting</h1>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" required>
-        
-            <label for="edad">Edad:</label>
-            <input type="number"  name="edad" required>
-        
-            <label for="ubicacion">Ubicación:</label>
-            <input type="text"  name="ubicacion" required>
-        
-            <label for="video">Subir un video mostrando su talento:</label>
-            <input type="file"  name="video" accept="video/*" required>
-        
-            <label for="redes">Link a sus redes:</label>
-            <input type="url"  name="redes" required>
-        
-            <label for="motivo">¿Por qué quiere ser el próximo artista?</label>
-            <textarea id="motivo" name="motivo"  required></textarea>
-        
-            <button type="submit">Enviar</button>
+        <h1 style="margin-top: 0.5em;">Formulario de Casting</h1>
+        <form class="row g-3">
+
+            <div class="col-md-5">
+                <label class="form-label" for="nombre">Nombre:</label>
+                <input  class="form-control" type="text" name="nombre" required>
+            </div>
+
+            <div class="col-md-5">
+                <label class="form-label" for="apellido">Apellido:</label>
+                <input  class="form-control" type="text" name="apellido" required>
+            </div>
+
+            <div class="col-md-5">
+                <label class="form-label" for="edad">Edad:</label>
+                <input class="form-control" type="number"  name="edad" required>
+            </div>
+
+            <div class="col-md-5">
+                <label class="form-label" for="ubicacion">Ubicación:</label>
+                <input class="form-control" type="text"  name="ubicacion" required>
+            </div>
+
+            <div class="col-md-5">
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-control" type="email"  name="email" required>
+            </div>
+
+            <div class="col-md-5">
+                <label class="form-label" for="number">Número de contacto:</label>
+                <input class="form-control" type="number"  name="number" required>
+            </div>
+
+            <div class="col-md-10">
+                <label class="form-label" for="video">Subir un video mostrando su talento:</label>
+                <input class="form-control" type="file"  name="video" accept="video/*" required>
+            </div>
+
+            <div class="col-md-5">
+                <label class="form-label" for="redes">Link a sus redes:</label>
+                <input class="form-control" type="url"  name="redes" required>
+            </div>
+
+            <div class="col-md-10">
+                <label class="form-label" for="motivo">¿Por qué quiere ser el próximo artista?</label>
+                <textarea class="form-control" id="motivo" name="motivo"  required></textarea>
+            </div>
+            
+
+            <div>
+                <button class="btn btn-light" type="submit">Enviar</button>
+            </div>
+
         </form>
 
       </main>
