@@ -19,6 +19,27 @@ footer{
    margin-top: 2em;
 }
 
+/*Diseño de las cards*/
+#cards {
+    background-color: grey;
+    width: 18rem;
+    margin: 2em;
+    border: gray; 
+    color: white;
+}
+
+#cards a {
+    color: white; 
+}
+
+/*Interacción en las imagenes*/
+
+.imginteraccion:hover{
+        transform: scale(1.1);
+        transition:4s;
+        /*Cada vez que se pase el mouse se agranda, en 4 segundos*/
+    }
+
 
  /*Diseño página index de historia bzrp*/
     /*Video de youtube*/
