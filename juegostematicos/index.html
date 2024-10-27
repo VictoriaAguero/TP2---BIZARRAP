@@ -55,153 +55,82 @@
 
       <main>
         <article>
-            <h1 style="margin-top: 0.7em;">¡JUGUEMOS!</h1>
-            <p> Descubrí que tanto conoces de Bizarrap respondiendo un simple formulario</p>  
+            <h1>¡JUGUEMOS!</h1>
+    <p>Descubrí qué tanto conoces de Bizarrap respondiendo un simple formulario</p>
 
-            <button id="botonempezar" class="btn btn-light">Empecemos</button>
-
-              <section id="preguntasform">
-                <form class="form-check">
-
-                  <div id="pregunta1">
-                    <fieldset>
-                        <legend>Qué estudiaba Bizarrap antes de dedicarse 100% a su carrera?</legend>
-
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input  class="form-check-input" type="checkbox"  name="pregunta1" value="A" id="flexCheckDefault">
-                            Marketing 
-                        </label><br> <!--verdadera-->
-
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta1" value="B" id="flexCheckDefault">
-                            Administración de empresas
-                        </label><br>
-
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta1" value="C" id="flexCheckDefault">
-                             Publicidad
-                        </label><br>
-                    </fieldset>
-           
-                    <button class="btn btn-light" type="submit">Siguiente</button>
-                    </div>
-
-                    <div id="pregunta2">
-                    <fieldset >
-                        <legend>¿Quién fue el primer artista en tener su session?</legend>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta2" value="A" id="flexCheckDefault">
-                            Nathy peluso
-                        </label><br>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta2" value="B" id="flexCheckDefault">
-                             Kodigo <!--verdadera-->
-                        </label><br>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta2" value="C" id="flexCheckDefault">
-                            Trueno
-                        </label><br>
-                    </fieldset>
-            
-                    <button class="btn btn-light" type="submit">Siguiente</button>
-                    </div>
-
-                    <div id="pregunta3">
-                    <fieldset>
-                        <legend>¿Qué artistas se conocieron en el estudio de Bizarrap y terminaron siendo pareja?</legend>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta3" value="A" id="flexCheckDefault">
-                            La joaqui y L-gante
-                        </label><br>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta3" value="B" id="flexCheckDefault">
-                            LitKillah y Tuly                         
-                        </label><br>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta3" value="C" id="flexCheckDefault">
-                            Trueno y Nicki Nicole <!--verdadera-->
-                        </label><br>
-                    </fieldset>
-            
-                    <button class="btn btn-light" type="submit">Siguiente</button>
-                    </div>
-
-                    <div id="pregunta4">
-                    <fieldset>
-                        <legend>¿Cuál es la session con más vistas en YouTube?</legend>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta4" value="A" id="flexCheckDefault">
-                            Nathy Peluso <!--verdadera-->
-                        </label><br>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta4" value="B" id="flexCheckDefault">
-                             Quevedo                           
-                        </label><br>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            <input class="form-check-input" type="checkbox"  name="pregunta4" value="C" id="flexCheckDefault">
-                             Shakira
-                        </label><br>
-    
-                    </fieldset>
-            
-                    <button class="btn btn-light" type="submit">Enviar</button>
-                    </div>
-
-                    <div id="pregunta5">
-                        <fieldset>
-                            <legend>¿Qué hacia Bzrp antes de las sessions en su canal?</legend>
-                            <label class="form-check-label" for="flexCheckDefault">
-                                <input class="form-check-input" type="checkbox"  name="pregunta5" value="A" id="flexCheckDefault">
-                                Edits de batallas, "Los combos locos"<!--verdadera-->
-                            </label><br>
-                            <label class="form-check-label" for="flexCheckDefault">
-                                <input class="form-check-input" type="checkbox"  name="pregunta5" value="B" id="flexCheckDefault">
-                                Beats sin letras                          
-                            </label><br>
-                            <label class="form-check-label" for="flexCheckDefault">
-                                <input class="form-check-input" type="checkbox"  name="pregunta5" value="C" id="flexCheckDefault">
-                                 Mix de canciones de Duki
-                            </label><br>
+    <!-- Formulario de preguntas -->
+    <form id="preguntasform">
         
-                        </fieldset>
-                
-                        <button class="btn btn-light" type="submit">Enviar</button>
-                        </div>
+        <!-- Pregunta 1 -->
+        <div id="pregunta1">
+            <fieldset>
+                <legend>¿Qué estudiaba Bizarrap antes de dedicarse 100% a su carrera?</legend>
+                <label><input type="radio" name="pregunta1" value="A"> Marketing</label><br>
+                <label><input type="radio" name="pregunta1" value="B"> Administración de empresas</label><br>
+                <label><input type="radio" name="pregunta1" value="C"> Publicidad</label><br>
+            </fieldset>
+        </div>
 
-                        <div id="pregunta6">
-                            <fieldset>
-                                <legend>¿Cuál es el esponsor oficial del concurso de artistas de Bizarrap?</legend>
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    <input class="form-check-input" type="checkbox"  name="pregunta6" value="A" id="flexCheckDefault">
-                                    Una marca de autos
-                                </label><br>
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    <input class="form-check-input" type="checkbox"  name="pregunta6" value="B" id="flexCheckDefault">
-                                   Bizarrap financia el concurso                        
-                                </label><br>
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    <input class="form-check-input" type="checkbox"  name="pregunta6" value="C" id="flexCheckDefault">
-                                    Pepsi <!--verdadera-->
-                                </label><br>
-            
-                            </fieldset>
-                    
-                            <button class="btn btn-light" type="submit">Enviar</button>
-                            </div>
-    
+        <!-- Pregunta 2 -->
+        <div id="pregunta2">
+            <fieldset>
+                <legend>¿Quién fue el primer artista en tener su session?</legend>
+                <label><input type="radio" name="pregunta2" value="A"> Nathy Peluso</label><br>
+                <label><input type="radio" name="pregunta2" value="B"> Kodigo</label><br>
+                <label><input type="radio" name="pregunta2" value="C"> Trueno</label><br>
+            </fieldset>
+        </div>
 
+        <!-- Pregunta 3 -->
+        <div id="pregunta3">
+            <fieldset>
+                <legend>¿Qué artistas se conocieron en el estudio de Bizarrap y terminaron siendo pareja?</legend>
+                <label><input type="radio" name="pregunta3" value="A"> La Joaqui y L-Gante</label><br>
+                <label><input type="radio" name="pregunta3" value="B"> Lit Killah y Tuli</label><br>
+                <label><input type="radio" name="pregunta3" value="C"> Trueno y Nicki Nicole</label><br>
+            </fieldset>
+        </div>
 
-                </form>
+        <!-- Pregunta 4 -->
+        <div id="pregunta4">
+            <fieldset>
+                <legend>¿Cuál es la session con más vistas en YouTube?</legend>
+                <label><input type="radio" name="pregunta4" value="A"> Nathy Peluso</label><br>
+                <label><input type="radio" name="pregunta4" value="B"> Quevedo</label><br>
+                <label><input type="radio" name="pregunta4" value="C"> Shakira</label><br>
+            </fieldset>
+        </div>
 
-            </section>
+        <!-- Pregunta 5 -->
+        <div id="pregunta5">
+            <fieldset>
+                <legend>¿Qué hacía Bizarrap antes de las sessions en su canal?</legend>
+                <label><input type="radio" name="pregunta5" value="A"> Edits de batallas, "Los combos locos"</label><br>
+                <label><input type="radio" name="pregunta5" value="B"> Beats sin letras</label><br>
+                <label><input type="radio" name="pregunta5" value="C"> Mix de canciones de Duki</label><br>
+            </fieldset>
+        </div>
 
-            <div>
-                <!--ESPACIO PARA MOSTRAR RESPUESTA AL USUARIO-->
-            </div>
+        <!-- Pregunta 6 -->
+        <div id="pregunta6">
+            <fieldset>
+                <legend>¿Cuál es el esponsor oficial del concurso de artistas de Bizarrap?</legend>
+                <label><input type="radio" name="pregunta6" value="A"> Una marca de autos</label><br>
+                <label><input type="radio" name="pregunta6" value="B"> Bizarrap financia el concurso</label><br>
+                <label><input type="radio" name="pregunta6" value="C"> Pepsi</label><br>
+            </fieldset>
+        </div>
 
+        <!-- Botón para verificar respuestas -->
+        <button type="button" id="verificarRespuestas">Verificar Respuestas</button>
+    </form>
 
+    <!-- Botón para reiniciar el juego -->
+    <button id="reiniciarJuego" style="display: none;">Reiniciar Juego</button>
+
+    <h3 id="resultado"></h3>
         </article>
-
+        
       </main>
 
 
