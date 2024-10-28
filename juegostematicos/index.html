@@ -55,8 +55,8 @@
 
       <main>
         <article>
-            <h1>¡JUGUEMOS!</h1>
-    <p>Descubrí qué tanto conoces de Bizarrap respondiendo un simple formulario</p>
+            <h1 style="margin-top: 0.5em;">¡JUGUEMOS!</h1>
+            <p>Descubrí qué tanto conoces de Bizarrap respondiendo un simple formulario</p>
 
     <!-- Formulario de preguntas -->
     <form id="preguntasform">
@@ -121,14 +121,59 @@
             </fieldset>
         </div>
 
-        <!-- Botón para verificar respuestas -->
-        <button type="button" id="verificarRespuestas">Verificar Respuestas</button>
+                <!-- Pregunta 7 -->
+                <div id="pregunta7">
+                    <fieldset>
+                        <legend>¿Qué canción de Nicki y Trueno produció Bizarrap?</legend>
+                        <label><input type="radio" name="pregunta6" value="A"> Mamichula</label><br>
+                        <label><input type="radio" name="pregunta6" value="B"> Dispara</label><br>
+                        <label><input type="radio" name="pregunta6" value="C"> Session número 9</label><br>
+                    </fieldset>
+                </div>
+
+                <!-- Pregunta 8 -->
+                <div id="pregunta8">
+                    <fieldset>
+                        <legend>¿Qué lo carcateriza a Bizarrap?</legend>
+                        <label><input type="radio" name="pregunta6" value="A">Diamantes en sus dientes</label><br>
+                        <label><input type="radio" name="pregunta6" value="B"> Su gorra y lentes</label><br>
+                        <label><input type="radio" name="pregunta6" value="C"> Buzo con su cara</label><br>
+                    </fieldset>
+                </div>
+
+                 <!-- Pregunta 9 -->
+                 <div id="pregunta9">
+                    <fieldset>
+                        <legend>¿Qué premio da Bizarrap al ganador del concurso de artistas?</legend>
+                        <label><input type="radio" name="pregunta6" value="A">Lanzar un tema en las plataformas oficiales de Bzrp, además de cubrir los gastos para trasladarte a grabar a Buenos Aires, una beca para estudiar música en la UNA y un premio de $1.000.000 de dólares.</label><br>
+                        <label><input type="radio" name="pregunta6" value="B"> Un saludo especial</label><br>
+                        <label><input type="radio" name="pregunta6" value="C"> Ser su ayudante durante un año entero</label><br>
+                    </fieldset>
+                </div>
+
+                <!-- Pregunta 10 -->
+                <div id="pregunta10">
+                    <fieldset>
+                        <legend>¿Qué artista conto detalles de su separación e infidelidad a traves de una session?</legend>
+                        <label><input type="radio" name="pregunta6" value="A">Nicki Nicole</label><br>
+                        <label><input type="radio" name="pregunta6" value="B"> Tini</label><br>
+                        <label><input type="radio" name="pregunta6" value="C"> Shakira</label><br>
+                    </fieldset>
+                </div>
+        
+        
     </form>
 
-    <!-- Botón para reiniciar el juego -->
-    <button id="reiniciarJuego" style="display: none;">Reiniciar Juego</button>
+        <!-- Botón para verificar respuestas -->
+        <button type="button" id="verificarRespuestas" style="margin-top: 0.5em;" class="btn btn-light">Verificar Respuestas</button>
+    
+        <h3 id="resultado"></h3>
 
-    <h3 id="resultado"></h3>
+        <!-- Botón para reiniciar el juego -->
+        <button id="reiniciarJuego" style="display: none; margin-top: 1em;" class="btn btn-light">Reiniciar Juego</button>
+
+
+  
         </article>
         
       </main>
