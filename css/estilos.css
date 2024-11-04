@@ -107,7 +107,7 @@ footer{
         margin: 1em 0; /* Espaciado vertical */
     }
 
-    /*El apartado de combos locos no aparece en la versión del celu*/
+    /* La foto de combos locos no aparece en la versión del celu*/
     #comboslocos{
         display: none;
 

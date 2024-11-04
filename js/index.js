@@ -13,6 +13,7 @@ const respuestasCorrectas = {
     pregunta10: "C",
 };
 
+//Tomamos los id con el queryselecrtor
 let vRespuestas = document.querySelector('#verificarRespuestas');
 let resulta = document.querySelector('#resultado');
 
@@ -20,15 +21,21 @@ let resulta = document.querySelector('#resultado');
 function verificarRespuestas() {
     puntaje = 0; // Reinicia el puntaje
 
+//Hacemos este for para que se ejecute 10 veces por las 10 preguntas
     for (let i = 1; i <= 10; i++) {
-        let respuesta = document.querySelector(`input[name="pregunta${i}"]:checked`);
+    //Acá se selecciona un input con el nombre pregunta y el número que da el for.
+        let respuesta = document.querySelector(`input[name="pregunta${i}"]:checked`); //Con el checked se compruba lo que selecciono el jugador
+    //Acá se compruba si la respuesta es la declarada en la const variables correctas y si es asi se suma punto
         if (respuesta && respuesta.value === respuestasCorrectas[`pregunta${i}`]) {
             puntaje++;
         }
     }
 
+//Alert para avisar al usuario 
     alert(`Tu puntaje es: ${puntaje} / 10`);
+//En el div se muestra un p con sus respuestas 
     resulta.innerText = 'Respuestas correctas: ' + puntaje; 
+    //Se vuelve a 0, se oculta las respuestas y se reincia el jeugo
     document.querySelector('#reiniciarJuego').style.display = 'block';
 }
 
